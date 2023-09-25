@@ -3,8 +3,10 @@ const Schema = mongoose.Schema;
 
 const TrailSchema = new Schema({
     title: String,
-    description: String,
     location: String,
+    longitude: String,
+    latitude: String,
+    description: String,
 });
 
 module.exports = mongoose.model('Trail', TrailSchema);
