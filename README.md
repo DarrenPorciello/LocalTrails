@@ -55,21 +55,9 @@ Before you get started, ensure you have the following prerequisites:
 
 6. Open your web browser and visit `http://localhost:3000` to access LocalTrails.
 
-## Contributing
-
-We welcome contributions from the community! Whether you'd like to fix bugs, implement new features, or enhance the user interface, your contributions are valuable. Please review our [contributing guidelines](CONTRIBUTING.md) for detailed information on how to contribute.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-We extend our gratitude to the vibrant Ontario hiking community for their continued support and contributions.
-
 ## Contact
 
-For questions, feedback, or inquiries, please don't hesitate to reach out to us at [your.email@example.com](mailto:your.email@example.com).
+For questions, feedback, or inquiries, please don't hesitate to reach out to us at darren.porciello1@gmail.com
 
 ---
 
