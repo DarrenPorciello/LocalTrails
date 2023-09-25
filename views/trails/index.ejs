@@ -7,6 +7,9 @@
 </head>
 <body>
     <h1>All Trails</h1>
+    <div>
+        <a href="/trails/new">Add Trail</a>
+    </div>
     <ul>
     <% for (let trail of trails) {%>
         <li><a href="/trails/<%= trail._id %>"><%= trail.title %></a> </li>
