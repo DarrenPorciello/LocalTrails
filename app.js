@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
+const methodOverride = require('method-override');
 const Trail = require('./models/trail');
 
 mongoose.connect('mongodb://127.0.0.1:27017/local-trails', { useNewUrlParser: true, useUnifiedTopology: true})
@@ -19,6 +20,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(express.urlencoded({ extended: true }));
+app.use(methodOverride('_method'));
 
 app.get('/', (req, res) => {
     res.render('home')
@@ -44,6 +46,24 @@ app.get('/trails/:id', async (req, res) => {
     //Implement find
     const trail = await Trail.findById(req.params.id)
     res.render('trails/show', { trail }); //Render the show page with the trail
+});
+
+app.get('/trails/:id/edit', async (req, res) => {
+    //Implement find
+    const trail = await Trail.findById(req.params.id)
+    res.render('trails/edit', { trail }); //Render the show page with the trail
+})
+
+app.put('/trails/:id', async (req, res) => {
+    const { id } = req.params;
+    const trail = await Trail.findByIdAndUpdate(id, {...req.body.trail });
+    res.redirect(`/trails/${trail._id}`);
+})
+
+app.delete('/trails/:id', async (req, res) => {
+    const { id } = req.params;
+    await Trail.findByIdAndDelete(id);
+    res.redirect('/trails');
 });
 
 

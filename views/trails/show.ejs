@@ -8,6 +8,14 @@
 <body>
     <h1> <%=trail.title %></h1>
     <h2><%= trail.location %></h1>
+        <p>
+            <a href="/trails/<%=trail._id%>/edit">Edit</a>
+        </p>
+        <p>
+            <form action="/trails/<%=trail.id%>?_method=DELETE" method="POST">
+                <button>Delete</button>
+            </form>
+        </p>
         <footer>
             <a href="/trails"> All Trails</a>
         </footer>
