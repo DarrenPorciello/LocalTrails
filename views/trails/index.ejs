@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trails</title>
-</head>
-<body>
+<% layout('layouts/boilerplate') %>
     <h1>All Trails</h1>
     <div>
         <a href="/trails/new">Add Trail</a>
@@ -15,5 +8,3 @@
         <li><a href="/trails/<%= trail._id %>"><%= trail.title %></a> </li>
     <%} %>
     </ul>
-</body>
-</html>
