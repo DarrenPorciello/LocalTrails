@@ -17,6 +17,7 @@ const seedDB = async () => {
     for (let i = 0; i < seeds.length; i ++) {
         const trail = new Trail({
             title: `${seeds[i].title}`,
+            image: `${seeds[i].image}`,
             location: `${seeds[i].location}`,
             longitude: `${seeds[i].longitude}`,
             latitude: `${seeds[i].latitude}`,
