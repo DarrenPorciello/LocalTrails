@@ -1,6 +1,7 @@
 module.exports = [
   {
     "title": "Bruce Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Niagara Escarpment",
     "longitude": -79.8090,
     "latitude": 43.1532,
@@ -8,6 +9,7 @@ module.exports = [
   },
   {
     "title": "Algonquin Park - Highland Backpacking Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Algonquin Provincial Park",
     "longitude": -78.5143,
     "latitude": 45.9630,
@@ -15,6 +17,7 @@ module.exports = [
   },
   {
     "title": "Killarney Provincial Park - The Crack Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Killarney Provincial Park",
     "longitude": -81.2765,
     "latitude": 45.9689,
@@ -22,6 +25,7 @@ module.exports = [
   },
   {
     "title": "Gatineau Park - Wolf Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Gatineau Park",
     "longitude": -75.8378,
     "latitude": 45.5596,
@@ -29,6 +33,7 @@ module.exports = [
   },
   {
     "title": "Rouge National Urban Park - Mast Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Toronto",
     "longitude": -79.1062,
     "latitude": 43.8326,
@@ -36,6 +41,7 @@ module.exports = [
   },
   {
     "title": "Frontenac Provincial Park - Slide Lake Loop",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Frontenac County",
     "longitude": -76.6099,
     "latitude": 44.4194,
@@ -43,6 +49,7 @@ module.exports = [
   },
   {
     "title": "Pukaskwa National Park - Coastal Hiking Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Lake Superior",
     "longitude": -85.9282,
     "latitude": 48.5666,
@@ -50,6 +57,7 @@ module.exports = [
   },
   {
     "title": "Agawa Rock Pictographs Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Lake Superior",
     "longitude": -84.8454,
     "latitude": 47.2629,
@@ -57,6 +65,7 @@ module.exports = [
   },
   {
     "title": "Bruce Peninsula National Park - Bruce Peninsula Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Bruce Peninsula",
     "longitude": -81.4546,
     "latitude": 45.2569,
@@ -64,6 +73,7 @@ module.exports = [
   },
   {
     "title": "Mono Cliffs Provincial Park - Carriage Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Dufferin County",
     "longitude": -80.0479,
     "latitude": 44.0652,
@@ -71,6 +81,7 @@ module.exports = [
   },
   {
     "title": "Elora Gorge Conservation Area - Elora Gorge Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Elora",
     "longitude": -80.4326,
     "latitude": 43.6859,
@@ -78,6 +89,7 @@ module.exports = [
   },
   {
     "title": "Crawford Lake Conservation Area - Crawford Lake Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Milton",
     "longitude": -79.9787,
     "latitude": 43.4364,
@@ -85,6 +97,7 @@ module.exports = [
   },
   {
     "title": "Rattlesnake Point Conservation Area - Rattlesnake Point Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Milton",
     "longitude": -79.9297,
     "latitude": 43.4619,
@@ -92,6 +105,7 @@ module.exports = [
   },
   {
     "title": "Hockley Valley Provincial Nature Reserve - Hockley Valley Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Orangeville",
     "longitude": -80.0266,
     "latitude": 43.9573,
@@ -99,6 +113,7 @@ module.exports = [
   },
   {
     "title": "Mono Cliffs Provincial Park - McCarston's Lake Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Dufferin County",
     "longitude": -80.0471,
     "latitude": 44.0701,
@@ -106,6 +121,7 @@ module.exports = [
   },
   {
     "title": "Sleeping Giant Provincial Park - Top of the Giant Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Thunder Bay",
     "longitude": -88.9786,
     "latitude": 48.3709,
@@ -113,6 +129,7 @@ module.exports = [
   },
   {
     "title": "Forks of the Credit Provincial Park - Bruce Trail Loop",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Caledon",
     "longitude": -79.9583,
     "latitude": 43.7811,
@@ -120,6 +137,7 @@ module.exports = [
   },
   {
     "title": "Awenda Provincial Park - Bluff Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Penetanguishene",
     "longitude": -79.9472,
     "latitude": 44.9174,
@@ -127,6 +145,7 @@ module.exports = [
   },
   {
     "title": "Lake Superior Provincial Park - Coastal Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Lake Superior",
     "longitude": -85.9893,
     "latitude": 47.8679,
@@ -134,6 +153,7 @@ module.exports = [
   },
   {
     "title": "Charleston Lake Provincial Park - Silver Queen Mine Trail",
+    "image": "https://worldtrailsnetwork.org/wp-content/uploads/2014/11/From-My-Point-of-View-credit-Greg-Coman-600x350.jpg",
     "location": "Charleston Lake",
     "longitude": -75.8727,
     "latitude": 44.5883,
